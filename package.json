@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.0.8",
+    "@radix-ui/react-dialog": "^1.0.3",
     "components": "^0.1.0",
     "phosphor": "^0.7.1",
     "phosphor-react": "^1.4.1",
