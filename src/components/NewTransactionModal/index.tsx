@@ -16,29 +16,29 @@ export function NewTransactionModal() {
       <Overlay />
 
       <Content>
-        <Dialog.Title>Nova Transação</Dialog.Title>
+        <Dialog.Title>New Transaction</Dialog.Title>
 
         <CloseButton>
           <X size={24} />
         </CloseButton>
 
         <form>
-          <input type="text" placeholder="Descrição" required />
-          <input type="number" placeholder="Preço" required />
-          <input type="text" placeholder="Categoria" required />
+          <input type="text" placeholder="Description" required />
+          <input type="number" placeholder="Price" required />
+          <input type="text" placeholder="Category" required />
 
           <TransactionType>
             <TypeButton variant="income" value="income">
               <ArrowCircleUp size={24} />
-              Entrada
+              Income
             </TypeButton>
             <TypeButton variant="outcome" value="outcome">
               <ArrowCircleDown size={24} />
-              Saída
+              Outcome
             </TypeButton>
           </TransactionType>
 
-          <button type="submit">Cadastrar</button>
+          <button type="submit">Register</button>
         </form>
       </Content>
     </Dialog.Portal>

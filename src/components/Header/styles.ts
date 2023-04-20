@@ -29,3 +29,13 @@ export const NewTransactionButton = styled.button`
     transition: background-color 0.2s;
   }
 `;
+
+export const LogoContent = styled.button`
+  display: flex;
+  background: ${(props) => props.theme["gray-900"]};
+  border: 0;
+  align-items: center;
+  gap: 18px;
+  font-size: 30px;
+  color: ${(props) => props.theme["green-300"]};
+`;

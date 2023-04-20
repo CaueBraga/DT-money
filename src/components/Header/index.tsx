@@ -1,16 +1,27 @@
-import { HeaderContainer, HeaderContent, NewTransactionButton } from "./styles";
+import {
+  HeaderContainer,
+  LogoContent,
+  HeaderContent,
+  NewTransactionButton,
+} from "./styles";
 import logoImg from "../../assets/logo.svg";
 import * as Dialog from "@radix-ui/react-dialog";
+import { Wallet } from "phosphor-react";
 import { NewTransactionModal } from "../NewTransactionModal";
 export function Header() {
   return (
     <HeaderContainer>
       <HeaderContent>
-        <img src={logoImg} alt="" />
+        <LogoContent>
+          <div>
+            <Wallet size={44} color="#00B37E" weight="fill" />
+          </div>
+          <div>Smart Wallet</div>
+        </LogoContent>
 
         <Dialog.Root>
           <Dialog.Trigger asChild>
-            <NewTransactionButton>Nova transação</NewTransactionButton>
+            <NewTransactionButton>New Transaction</NewTransactionButton>
           </Dialog.Trigger>
 
           <NewTransactionModal />
