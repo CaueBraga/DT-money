@@ -2,19 +2,27 @@
   "transactions": [
     {
       "id": 1,
-      "description": "Desenvolvimento de site",
+      "description": "Web site development",
       "type": "income",
-      "category": "Venda",
+      "category": "Sale",
       "price": 14000,
       "createdAt": "2022-07-29T19:36:44.505Z"
     },
     {
       "id": 2,
-      "description": "Hambúrguer",
+      "description": "Dinner",
       "type": "outcome",
-      "category": "Alimentação",
+      "category": "Food",
       "price": 60,
       "createdAt": "2022-07-29T19:30:44.505Z"
+    },
+    {
+      "id": 3,
+      "description": "Web Course",
+      "type": "outcome",
+      "category": "Education",
+      "price": 1980,
+      "createdAt": "2022-07-29T19:24:44.505Z"
     }
   ]
 }
